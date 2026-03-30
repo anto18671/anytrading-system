@@ -1,0 +1,9 @@
+2026-03-29 19:59:47,066 [INFO] __main__: Loading data for AAPL...
+2026-03-29 19:59:47,066 [INFO] src.data.data_loader: Fetching AAPL [2020-01-01 -> 2024-01-01] interval=1d
+2026-03-29 19:59:47,734 [INFO] src.data.data_loader: Fetched 1006 rows for AAPL.
+2026-03-29 19:59:47,736 [INFO] src.data.data_loader: Split -> train=778 rows, test=195 rows.
+2026-03-29 19:59:47,736 [INFO] __main__: train=778 rows  test=195 rows
+2026-03-29 19:59:47,736 [INFO] __main__: Building PPO agent...
+2026-03-29 19:59:47,736 [INFO] src.agents.rl_agent: Building PPO agent policy=MlpPolicy
+2026-03-29 19:59:48,782 [INFO] __main__: Training for 500000 timesteps...
+2026-03-29 20:07:17,314 [INFO] __main__: Final model saved to models\final_model
